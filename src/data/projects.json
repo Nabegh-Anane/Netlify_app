@@ -24,8 +24,8 @@
     {
       "title": "Dashboard BI",
       "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/projects/dash.gif",
-      "description": "Implement a complete BI system for Connect Content: real-time data collection, web app, reports.",
-      "skills": ["PowerBI", "Microsoft Fabric"],
+      "description": "Implement a complete BI system for Connect Content: real-time data collection, web app, reports. and CI/CD Integration.",
+      "skills": ["PowerBI", "Microsoft Fabric", "Azure"],
       "demo": "https://github.com/Nabegh-Anane/Azure_Function",
       "source": "/projects"
     },
