@@ -1,37 +1,37 @@
 [
     {
       "title": "RabahMe",
-      "imageSrc": "projects/rabahmi.gif",
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/projects/rabahmi.gif",
       "description": "Revolutionizing Tunisia's marketing: Mobile App RabahMe blends AI, email, SMS for optimal choices, analysis, tracking.",
       "skills": ["JAVA", "XML", "SQLite"],
       "demo": "https://github.com/Nabegh-Anane/RabahMe",
       "source": "/projects"
     },{
       "title": "Makelty",
-      "imageSrc": "projects/makelty.gif",
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/projects/makelty.gif",
       "description": "Makelty is a plan meals effortlessly with your kitchen's ingredients using our streamlined, intuitive app interface.",
       "skills": ["JAVA", "XML", "FireBase"],
       "demo": "https://github.com/Nabegh-Anane/Makelty",
       "source": "/projects"
     }, {
       "title": "FoundIT",
-      "imageSrc": "projects/FoundIT.gif",
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/projects/FoundIT.gif",
       "description": "Mobile App related with Smart collar/keychain alerts owners if pets/items go beyond set distances, using GPS.",
       "skills": ["JAVA", "XML", "SQLite", "C", "ESP32"],
       "demo": "https://github.com/Nabegh-Anane/FoundIT",
       "source": "/projects"
     },
     {
-      "title": "Leak Evolution Detection",
-      "imageSrc": "projects/led.png",
-      "description": "Performant system for protecting building architecture, ensuring structural integrity and safeguarding structures.",
-      "skills": ["ESP8266", "Git","Arduino Cloud"],
-      "demo": "https://www.behance.net/gallery/148243025/Entreprenariat-Project-Logo-Design",
+      "title": "Dashboard BI",
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/projects/dash.gif",
+      "description": "Implement a complete BI system for Connect Content: real-time data collection, web app, reports.",
+      "skills": ["PowerBI", "Microsoft Fabric"],
+      "demo": "https://github.com/Nabegh-Anane/Azure_Function",
       "source": "/projects"
     },
     {
       "title": "Masroufi",
-      "imageSrc": "projects/masroufi.JPG",
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/projects/masroufi.JPG",
       "description": "Expert in Adobe Photoshop, Illustrator, Figma for logo, graphic design, brochure, business cards, UI.",
       "skills": ["Illustrator", "Photoshop", "Figma"],
       "demo": "https://www.behance.net/gallery/148505961/Design-Logo-Masroufi-Platform-INC",
@@ -39,7 +39,7 @@
     },
     {
       "title": "Sales Dashboard",
-      "imageSrc": "projects/Affiche.png",
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/projects/Affiche.png",
       "description": "Create a Sales Report in Power BI for data-driven decisions, highlighting revenue metrics and trends.",
       "skills": ["Python", "PowerBI", "Git"],
       "demo": "https://github.com/Nabegh-Anane/Dashboard-Sales-Microsoft-PowerBI",
