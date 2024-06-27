@@ -1,0 +1,154 @@
+@import "../../vars.css";
+
+.Clubs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+.container {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 5px;
+    padding: 20px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    
+  }
+  
+  .card {
+    position: relative;
+    display: block;
+    text-align: left;
+    flex-direction: column;
+    gap: 50px;
+    width: 300px;
+    height: 400px;
+    margin: 5px 5px 5px 5px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);      
+  }
+
+  .title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+  @media screen and (max-width: 830px) {
+    .container {
+        max-width: 80%;
+        argin: 20px 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-gap: 20px;
+        padding: 20px 0;
+      }
+      
+      .card {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        background: #000;
+        border-radius: 15px;
+        box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+      }
+      .title {
+        color: var(--color-text);
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 1.75px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+        
+      }
+  }
+  .face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .face1 {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .face1 h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Mic {
+    background-color: var(--color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .Mica {
+    background-color: var(--color-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .Mico {
+    background-color: var(--color-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .face2 {
+    transition: 0.5s;
+  }
+  
+  .face2 img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .card:hover .face2 {
+    height: 60px;
+  }
+  
+  .card:hover .face2 img {
+    max-width: 20%;
+    font-size: 2em;
+  }
+  
+  .card:nth-child(1) .face2 {
+    background-image: linear-gradient(40deg, #ee4c7c 0%, #19376d 100%);
+    border-radius: 15px;
+  }
+  
+  .card:nth-child(2) .face2 {
+    background-image: linear-gradient(40deg, #ee4c7c 0%, #19376d 100%);
+    border-radius: 15px;
+  }
+  
+  .card:nth-child(3) .face2 {
+    background-image: linear-gradient(40deg, #ee4c7c 0%, #19376d 100%);
+    border-radius: 15px;
+  }
+  

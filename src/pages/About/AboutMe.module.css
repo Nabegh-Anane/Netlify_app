@@ -1,0 +1,105 @@
+@import "../../vars.css";
+
+.Certif {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex; /* Use flex to center children vertically */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+  }
+
+  .title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+
+
+.txt {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.home .homecontent {
+  max-width: 74rem;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  font-family: var(--font-roboto);
+}
+
+.homecontent h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 13px;
+  font-family: var(--font-roboto);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 120%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.homecontent h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--color-primary);
+  margin-bottom: 13px;
+  font-family: var(--font-roboto);
+}
+
+
+.homecontent p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: var(--font-roboto);
+  margin-bottom: 30px;
+  color: var(--color-text);
+}
+
+.homecontent .socialmedia a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  box-shadow: 0 0.2rem 0.5rem var(--shadow-color);
+  font-size: 2rem;
+  color: var(--color-primary);
+  margin: 0px 4px 4px 7px;
+  margin-bottom: 20px;
+  transition: 0.5s ease;
+}
+
+.homecontent .socialmedia a:hover {
+  background: var(--color-text);
+  color: var(--color-primary);
+}
+
+@media screen and (max-width: 830px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+
+  .homecontent {
+    align-items: center;
+    text-align: center;
+  }
+
+  .homecontent .socialmedia a {
+    align-items: center;
+    position: relative;
+  }
+}

@@ -1,0 +1,126 @@
+.contact {
+    color: var(--color-text);
+    margin: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+  
+  
+  
+  .ContactMe {
+    width: 900px;
+  }
+  
+  form { max-width:420px; margin:50px auto; }
+
+.feedbackInput {
+  color:var(--color-text);
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid var(--color-primary);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedbackInput:focus { border:2px solid var(--color-primary); }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  
+  width: 100%;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+}
+  
+
+.showMoreBtn {
+  max-width:420px; margin:10px auto;
+  color: var(--color-bg);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 
+   4px 4px 5px 0px var(--color-primary);
+  outline: none;
+}
+.showMoreBtn {
+  max-width:420px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: var(--color-primary);
+background: linear-gradient(0deg, var(--color-primary) 0%, var(--color-primary) 100%);
+}
+.showMoreBtn:hover {
+  color: var(--color-primary);
+  background: transparent;
+   box-shadow:none;
+}
+.showMoreBtn:before,
+.showMoreBtn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: var(--color-primary);
+  box-shadow:
+   7px 7px 20px 0px var(--color-primary);
+  transition:400ms ease all;
+}
+.showMoreBtn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.showMoreBtn:hover:before,
+.showMoreBtn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+@media screen and (max-height: 850px) {
+  form { max-width:300px; margin:50px auto; }
+}
+
+@media screen and (min-width: 850px) {
+  form { max-width:420px; margin:50px auto; }
+}

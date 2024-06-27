@@ -1,0 +1,52 @@
+[
+  {
+    "role": "Support and Information Systems (SIS) Intern",
+    "organisation": "Tunisia Telecom Regional Office – SIS Bureau, Ben Arous, Tunisia.",
+    "startDate": "July 2020",
+    "endDate": "August 2020",
+    "experiences": [
+      "Optimized IT performance through hardware maintenance and repairs.",
+      "Ensured stable internet connectivity by maintaining regional servers.",
+      "Enhanced client connectivity with fiber-optic network installations."
+    ],
+    "imageSrc": "history/TT.png"
+  },
+  {
+    "role": "Data Digitization Intern",
+    "organisation": "Ministry of Justice, Court of First Instance, Ben Arous, Tunisia.",
+    "startDate": "July 2021",
+    "endDate": "August 2021",
+    "experiences": [
+      "Optimized judicial file management through data digitization.",
+      "Coordinated efficient document digitization and archiving operations.",
+      "Trained staff in scanning tools, improving data security protocols."
+    ],
+    "imageSrc": "history/TN.png"
+  },
+  {
+    "role": "Full Stack Web Intern",
+    "organisation": "Cuba Studio, Ben Arous, Tunisia.",
+    "startDate": "June 2022",
+    "endDate": "August 2022",
+    "experiences": [
+      "Designed and developed a business website using diverse technologies.",
+      "Configured VPS server on DigitalOcean, ensuring online hosting.",
+      "Wrote detailed specifications for Full Stack web development."
+    ],
+    "imageSrc": "history/CS.png"
+  },
+  {
+    "role": "UI/UX Design Intern",
+    "organisation": "Express Medical Transport Assistance (EMTA), Hammamet, Nabeul, Tunisia.",
+    "startDate": "July 2023",
+    "endDate": "August 2023",
+    "experiences": [
+      "Defined UI/UX needs, creating a comprehensive graphic charter.",
+      "Designed mobile app and e-Commerce interfaces aligned with client needs.",
+      "Utilized Adobe tools for various design stages and Motion Design."
+    ],
+    "imageSrc": "history/EMTA.png"
+  }
+]
+
+  

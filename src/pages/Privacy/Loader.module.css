@@ -1,0 +1,22 @@
+@import "../../vars.css";
+
+.loader{
+
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader svg{
+    width: 290px;
+    height:  290px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}

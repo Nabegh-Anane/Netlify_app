@@ -1,0 +1,168 @@
+@import "../../vars.css";
+
+.CV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+  }
+  .title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+  
+ 
+.hun, .hdu, .htr, .hqt {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0.5em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	
+	border-bottom: 3px solid var(--color-primary);
+	display: inline-block;
+	color: var(--color-text);
+  font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;		
+}
+
+.uli {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	color: var(--color-text);
+  font-size: 10px;
+	list-style: none;
+}
+
+.uli span{color: var(--color-primary);}
+.resumi {
+	width: 50%;
+	margin: auto; 
+	position: relative; 
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+  font-size: 8px;
+}
+
+.row {
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+
+.tech {padding-left: 20px;}
+.headri {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.headri h1 {
+	font-size: 40px;
+  color: var(--color-text);
+}
+
+.headri ul { 
+  font-size: 20px;
+  color: var(--color-text);
+
+}
+
+.headri ul li {
+	height: 25px;
+  font-size: 20px;
+}
+
+
+
+.articli {
+	margin-top: 20px;
+  padding-left: 0px;
+}
+
+
+.articli h2 {
+	font-size: 40px;
+  color: var(--color-text);
+}
+
+.header {
+	color: var(--color-primary);
+  font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+.articli .right{
+	float: right;
+	width: 5px;
+	font-weight: 600;
+	font-size: x-small;
+  color: var(--color-primary);
+}
+
+.articli .description {
+	font-style: italic;
+	font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.articli .expList .fa {
+	color: var(--color-primary);
+	padding-right: 45px;
+	font-size: 8px;
+}
+
+.articli ul li {
+	min-height: 25px;
+	max-width: 80%;
+  font-size: 15px;
+}
+
+.articli .reference {
+	width: 400px;
+	display: inline-block;
+}
+
+.articli .reference ul li {
+	max-width: 100%;
+}
+
+.articli .spacer {
+	height: 15px;
+}
+
+.articli .tech ul li {
+	max-width: 100% !important;
+}
+
+.articli .tech span {
+	font-weight: 600;
+	color: var(--color-primary);
+}
+  @media screen and (max-width: 950px) {
+    .title {
+      color: var(--color-text);
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 1.75px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 20px;
+      
+    }
+
+}

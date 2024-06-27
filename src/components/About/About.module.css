@@ -1,0 +1,282 @@
+@import "../../vars.css";
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex; /* Use flex to center children vertically */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 20px;
+  margin-top: 30px;
+}
+.showMoreBtn {
+  width: 140px;
+  height: 55px;
+  color: var(--color-bg);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 
+   4px 4px 5px 0px var(--color-primary);
+  outline: none;
+}
+.showMoreBtn {
+  width: 140px;
+  height: 55px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: var(--color-primary);
+background: linear-gradient(0deg, var(--color-primary) 0%, var(--color-primary) 100%);
+}
+.showMoreBtn:hover {
+  color: var(--color-primary);
+  background: transparent;
+   box-shadow:none;
+}
+.showMoreBtn:before,
+.showMoreBtn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: var(--color-primary);
+  box-shadow:
+   7px 7px 20px 0px var(--color-primary);
+  transition:400ms ease all;
+}
+.showMoreBtn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.showMoreBtn:hover:before,
+.showMoreBtn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center; /* Center the content text */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.aboutImage {
+  width: 40%;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: block;
+  text-align: left;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 30px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 23px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-family: var(--font-roboto);
+  margin-right: 40px;
+}
+
+.aboutItem p {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: var(--font-roboto);
+}
+.aboutItemText{margin-left: 30px;}
+
+.bubblybutton {
+  display: flex;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin-top: 40px; 
+  margin-bottom: 10px;
+  text-align: center;
+  align-self: center;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.2s;
+  box-shadow: 3px 13px 35px rgba(255, 0, 130, 0.5);
+}
+
+.bubblybutton:focus {
+  outline: 0;
+}
+
+.bubblybutton:before,
+.bubblybutton:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: -1000;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+
+.bubblybutton:before {
+  display: none;
+  top: -75%;
+  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #ff0081 20%, transparent 30%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+
+.bubblybutton:after {
+  display: none;
+  bottom: -75%;
+  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+
+.bubblybutton:active {
+  transform: scale(0.9);
+  background-color: var(--color-primary);
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
+
+.bubblybutton.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+
+.bubblybutton.animate:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+
+@keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+@keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+   50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center; /* Center the content text on smaller screens */
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+    text-align: left;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .aboutItemText{margin-left: 30px;}
+  .bubblybutton {
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,115 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "Bootstrap",
+      "imageSrc": "skills/bootstrap.png"
+    },
+    {
+      "title": "JS",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "Express JS",
+      "imageSrc": "skills/express.png"
+    },
+    {
+      "title": "React JS",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Node JS",
+      "imageSrc": "skills/nodejs.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "PHP",
+      "imageSrc": "skills/php.png"
+    },
+    {
+      "title": "Django",
+      "imageSrc": "skills/django.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "skills/mysql.png"
+    },
+    {
+      "title": "HADOOP",
+      "imageSrc": "skills/hadoop.png"
+    },
+    {
+      "title": "AWS Cloud",
+      "imageSrc": "skills/amazon.png"
+    },
+    {
+      "title": "GLE Cloud",
+      "imageSrc": "skills/google.png"
+    },
+    {
+      "title": "vSphere/ESXi",
+      "imageSrc": "skills/vmware.png"
+    },
+    {
+      "title": "Android Dev",
+      "imageSrc": "skills/android.png"
+    },
+    {
+      "title": "C",
+      "imageSrc": "skills/c.png"
+    },
+    {
+      "title": "Java OOP",
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "R",
+      "imageSrc": "skills/r.png"
+    },
+    {
+      "title": "POWER BI",
+      "imageSrc": "skills/powerBI.png"
+    },
+    {
+      "title": "Wordpress",
+      "imageSrc": "skills/wordpress.png"
+    },
+    {
+      "title": "WINDEV",
+      "imageSrc": "skills/windev.png"
+    },
+    {
+      "title": "Dynamics 365",
+      "imageSrc": "skills/microsoft365.png"
+    },
+    {
+      "title": "Creative Cloud",
+      "imageSrc": "skills/adobeCreativeCloud.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "MS Office",
+      "imageSrc": "skills/microsoftOffice.png"
+    },
+    {
+      "title": "Msfconsole",
+      "imageSrc": "skills/metasploit.png"
+    }
+  ]
+  

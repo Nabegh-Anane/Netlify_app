@@ -1,0 +1,175 @@
+@import "../../vars.css";
+.WebDev {
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    
+  }
+
+ @media screen and (max-width: 830px) {
+
+        .title {
+            color: var(--color-text);
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 1.75px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .skills .Carta i{
+            font-size: 42px;
+            padding: 10px;
+            width: 75px;
+            height: 95px;
+            align-self: center;
+            align-items: center;
+            text-align: center;
+        }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #00cfe8;
+    --second-color: #1b1b1b;
+    --third-color: #d4d4d4;
+    --bg-color: #ebebeb;
+    --main-grid: repeat(auto-fill, minmax(300px, 1fr));
+    --main-padding: 40px;
+}
+
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+.skills {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    background-color: var(--color-bg);
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 35px;
+    color: var(--color-primary);
+    padding-bottom: 20px;
+}
+
+.skills h2 span {
+    color: var(--color-primary);
+}
+
+.skills p {
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: 400;
+}
+
+.skills .skillCarta {
+    display: grid;
+    grid-template-columns: var(--main-grid);
+    grid-gap: 60px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.skills .skillCarta .Carta{
+    padding: 25px;
+    text-align: center;
+    background-color: var(--color-bg);
+    border: 3px solid var(--color-primary);
+    color: var(--color-text);
+    transition: 1s;
+    position: relative;
+}
+
+.skills .Carta h4{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.skills .Carta p{
+    line-height: 1.7;
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+.skills .Carta i{
+    font-size: 42px;
+    padding: 15px;
+    width: 75px;
+    height: 75px;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    position: absolute;
+    top: calc(-75px / 2);
+    transform: rotate(45deg);
+    left: 39%;
+    transition: 1s;
+    border: 2px solid var(--color-primary);
+}
+
+.skills .Carta:hover{
+    background-color: var(--color-bg);
+    border: 2px solid var(--color-primary);
+    color: var(--color-text);
+}
+
+.skills .Carta:hover i{
+    transform: rotate(0deg);
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+}
+
+.skills .Carta:hover h4{
+    color: var(--color-primary);
+    transition: 1s;
+}
+.skills .Carta:hover p{
+    color: var(--color-text);
+    transition: 1s;
+}
+

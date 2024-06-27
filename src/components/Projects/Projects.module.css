@@ -1,0 +1,107 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex; /* Use flex to center children vertically */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+button {
+  margin: 20px;
+  margin-top: 50px;
+  position: relative;
+  display: contents;
+  align-items: center;
+}
+.showMoreBtn {
+  width: 200px;
+  height: 55px;
+  color: var(--color-bg);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 
+   4px 4px 5px 0px var(--color-primary);
+  outline: none;
+}
+.showMoreBtn {
+  width: 200px;
+  height: 55px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: var(--color-primary);
+background: linear-gradient(0deg, var(--color-primary) 0%, var(--color-primary) 100%);
+}
+.showMoreBtn:hover {
+  color: var(--color-primary);
+  background: transparent;
+   box-shadow:none;
+}
+.showMoreBtn:before,
+.showMoreBtn:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: var(--color-primary);
+  box-shadow:
+   7px 7px 20px 0px var(--color-primary);
+  transition:400ms ease all;
+}
+.showMoreBtn:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.showMoreBtn:hover:before,
+.showMoreBtn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+@media screen and (max-width: 430px) {
+  .projects {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 60%;
+  }
+}
