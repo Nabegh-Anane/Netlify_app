@@ -18,28 +18,28 @@ const About = () => {
         <h2 className={styles.title}>About</h2>
         <div className={styles.content}>
           <img
-            src={getImageUrl("about/aboutImage.png")}
+            src="https://nabeghanane-portfolio.imgix.net/about/aboutImage.png"
             alt="Me sitting with a laptop"
             className={styles.aboutImage}
           />
           
           <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
-              <img src={getImageUrl("about/webdev.png")} alt="Web Developper icon" />
+              <img src="https://nabeghanane-portfolio.imgix.net/about/webdev.png" alt="Web Developper icon" />
               <div className={styles.aboutItemText}>
               <h3>Full Stack Web Developer</h3>
                 <p>Web development expertise fused into seamless, scalable solutions for exceptional user experiences.</p>
               </div>
             </li>
             <li className={styles.aboutItem}>
-              <img src={getImageUrl("about/codedev.png")} alt="Programmer icon" />
+              <img src="https://nabeghanane-portfolio.imgix.net/about/codedev.png" alt="Programmer icon" />
               <div className={styles.aboutItemText}>
               <h3>Problem Solver</h3>
                 <p>Proven expert in crafting high-performance back-end systems, APIs, and solving complex problems efficiently.</p>
               </div>
             </li>
             <li className={styles.aboutItem}>
-              <img src={getImageUrl("about/dataan.png")} alt="DATA Analyste icon" />
+              <img src="https://nabeghanane-portfolio.imgix.net/about/dataan.png" alt="DATA Analyste icon" />
               <div className={styles.aboutItemText}>
               <h3>Data Analyst</h3>
                 <p>Optimizing data analysis through proven design strategies, ensuring effective and visually appealing interfaces.</p>
