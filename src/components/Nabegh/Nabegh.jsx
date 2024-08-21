@@ -12,9 +12,9 @@ const Nabegh = () => {
       <div className={styles.homecontent}>
         <h3>Hello, I am</h3>
         <h1>Nabegh Anane</h1>
-        <p>As a Business Intelligence student, Full Stack Web Developer, Solidity contracts specialist, IT enthusiast, designer, video editor, cybersecurity researcher, advanced Python programmer, marketing planner, leader, and CEO & Founder of NEvolution LLC.</p>
+        <p>As a recent graduate in Business Intelligence, I am passionate about data analysis and software development. My academic journey has equipped me with extensive expertise in data analysis, full-stack web development, and designing user-friendly interfaces.</p>
         <div className={styles.socialmedia}>
-              <a href="mailto:contact@nabeghanane.me" target="_blank" rel="noreferrer"><img src={getImageUrl("contact/email.png")} alt="Email icon" /></a>
+              <a href="mailto:contact@nabeghanane.com" target="_blank" rel="noreferrer"><img src={getImageUrl("contact/email.png")} alt="Email icon" /></a>
 							<a href="https://www.linkedin.com/in/nabegh-anane/" target="_blank" rel="noreferrer"><img src={getImageUrl("contact/linkedin.png")} alt="Linkedin icon" /></a>
 							<a href="https://github.com/Nabegh-Anane" target="_blank" rel="noreferrer"><img src={getImageUrl("contact/github.png")} alt="Github icon" /></a>
 							<a href="https://www.facebook.com/anane.nabegh/" target="_blank" rel="noreferrer"><img src={getImageUrl("contact/facebook.png")} alt="Facebook icon" /></a>
