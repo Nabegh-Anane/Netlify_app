@@ -1,7 +1,6 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
 import { Link } from "react-router-dom";
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo},

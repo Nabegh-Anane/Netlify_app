@@ -21,7 +21,7 @@ const Footer = () => {
               <li><Link to={`/projects`}><a>Mobile Development</a></Link></li>
               <li><Link to={`/skills`}><a>IT Knowledge</a></Link></li>
               <li><Link to={`/skills`}><a>Soft skills</a></Link></li>
-              <li><Link to={`/about#Certificate`}><a>Certification</a></Link></li>
+              <li><Link to={`/about`}><a>Certification</a></Link></li>
             </ul>
           </div> 
           <div className="col-xs-6 col-md-3">

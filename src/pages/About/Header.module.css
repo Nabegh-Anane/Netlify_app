@@ -45,7 +45,7 @@
   @media screen and (max-width: 830px) {
     .container {
         max-width: 80%;
-        argin: 20px 10%;
+        margin: 20px 10%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -100,16 +100,24 @@
   .Mic {
     background-color: var(--color-primary);
     -webkit-background-clip: text;
+    font-weight: 900;
+    font-size: 25px;
+    
     -webkit-text-fill-color: transparent;
   }
   .Mica {
     background-color: var(--color-text);
     -webkit-background-clip: text;
+    font-weight: 500;
+    margin-top: 3px;
+    font-size: 15px;
     -webkit-text-fill-color: transparent;
   }
   .Mico {
     background-color: var(--color-primary);
     -webkit-background-clip: text;
+    font-weight: 400;
+    font-size: 10px;
     -webkit-text-fill-color: transparent;
   }
   
