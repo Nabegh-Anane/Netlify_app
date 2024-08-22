@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./Skills.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
-import { getImageUrl } from "../../utils";
+//import { getImageUrl } from "../../utils";
 import { Link } from "react-router-dom";
 const Skills = () => {
   const ReadMoreClick = () => {
     
   };
-
+const urLL = "https://nabeghanane-portfolio.imgix.net/assets/";
   return (
     <section className={styles.container} id="skills">
       <h2 className={styles.title}>Skills</h2>
@@ -18,7 +18,7 @@ const Skills = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  <img src={skill.imageSrc} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -30,7 +30,7 @@ const Skills = () => {
             return (
               <li key={id} className={styles.historyItem}>
                 <img
-                  src={getImageUrl(historyItem.imageSrc)}
+                  src={historyItem.imageSrc}
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>

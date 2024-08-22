@@ -9,13 +9,13 @@ const NavAbout = () => {
     return (
         <nav className={styles.navbar}>
             <a href="/">
-                <img className={styles.logo} src={getImageUrl("nav/NEvolution_white.png")} alt="Logo Nabegh Anane" />
+                <img className={styles.logo} src="https://nabeghanane-portfolio.imgix.net/assets/nav/NEvolution_white.png" alt="Logo Nabegh Anane" />
             </a>
 
             <div className={styles.menu}>
                 <img
                     className={styles.menuBtn}
-                    src={menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")}
+                    src={menuOpen ? "https://nabeghanane-portfolio.imgix.net/assets/nav/closeIcon.png" : "https://nabeghanane-portfolio.imgix.net/assets/nav/menuIcon.png" }
                     alt="menu-button"
                     onClick={() => setMenuOpen(!menuOpen)}
                 />
@@ -37,7 +37,7 @@ const NavAbout = () => {
 
                 <img
                     className={styles.languageIcon}
-                    src={languageMenuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/langIcon.png")}
+                    src={languageMenuOpen ? "https://nabeghanane-portfolio.imgix.net/assets/nav/closeIcon.png" : "https://nabeghanane-portfolio.imgix.net/assets/nav/langIcon.png" }
                     alt="language-icon"
                     onClick={() => setLanguageMenuOpen(!languageMenuOpen)}
                 />
@@ -47,7 +47,7 @@ const NavAbout = () => {
                 <div className={styles.languageMenu}>
                     <img
                         className={styles.menuFlag}
-                        src={getImageUrl("nav/Anglais.png")}
+                        src="https://nabeghanane-portfolio.imgix.net/assets/nav/Anglais.png"
                         alt="Anglais"
                     />
                 </div>

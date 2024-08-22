@@ -1,115 +1,115 @@
 [
     {
       "title": "HTML",
-      "imageSrc": "skills/html.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/html.png"
     },
     {
       "title": "CSS",
-      "imageSrc": "skills/css.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/css.png"
     },
     {
       "title": "Bootstrap",
-      "imageSrc": "skills/bootstrap.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/bootstrap.png"
     },
     {
       "title": "JS",
-      "imageSrc": "skills/javascript.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/javascript.png"
     },
     {
       "title": "Express JS",
-      "imageSrc": "skills/express.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/express.png"
     },
     {
       "title": "React JS",
-      "imageSrc": "skills/react.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/react.png"
     },
     {
       "title": "Node JS",
-      "imageSrc": "skills/nodejs.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/nodejs.png"
     },
     {
       "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/mongodb.png"
     },
     {
       "title": "PHP",
-      "imageSrc": "skills/php.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/php.png"
     },
     {
       "title": "Django",
-      "imageSrc": "skills/django.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/django.png"
     },
     {
       "title": "MySQL",
-      "imageSrc": "skills/mysql.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/mysql.png"
     },
     {
       "title": "HADOOP",
-      "imageSrc": "skills/hadoop.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/hadoop.png"
     },
     {
       "title": "AWS Cloud",
-      "imageSrc": "skills/amazon.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/amazon.png"
     },
     {
       "title": "GLE Cloud",
-      "imageSrc": "skills/google.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/google.png"
     },
     {
       "title": "vSphere/ESXi",
-      "imageSrc": "skills/vmware.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/vmware.png"
     },
     {
       "title": "Android Dev",
-      "imageSrc": "skills/android.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/android.png"
     },
     {
       "title": "C",
-      "imageSrc": "skills/c.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/c.png"
     },
     {
       "title": "Java OOP",
-      "imageSrc": "skills/java.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/java.png"
     },
     {
       "title": "Python",
-      "imageSrc": "skills/python.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/python.png"
     },
     {
       "title": "R",
-      "imageSrc": "skills/r.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/r.png"
     },
     {
       "title": "POWER BI",
-      "imageSrc": "skills/powerBI.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/powerBI.png"
     },
     {
       "title": "Wordpress",
-      "imageSrc": "skills/wordpress.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/wordpress.png"
     },
     {
       "title": "WINDEV",
-      "imageSrc": "skills/windev.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/windev.png"
     },
     {
       "title": "Dynamics 365",
-      "imageSrc": "skills/microsoft365.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/microsoft365.png"
     },
     {
       "title": "Creative Cloud",
-      "imageSrc": "skills/adobeCreativeCloud.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/adobeCreativeCloud.png"
     },
     {
       "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/figma.png"
     },
     {
       "title": "MS Office",
-      "imageSrc": "skills/microsoftOffice.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/microsoftOffice.png"
     },
     {
       "title": "Msfconsole",
-      "imageSrc": "skills/metasploit.png"
+      "imageSrc": "https://nabeghanane-portfolio.imgix.net/assets/skills/metasploit.png"
     }
   ]
   

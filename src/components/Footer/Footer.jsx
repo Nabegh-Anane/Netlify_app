@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-sm-12 col-md-6">
             <h6 className={styles.h6}>About</h6>
             <p className={styles.textJustify}>
-              Nabegh Anane is a Junior Data Analyst and Business Intelligence Student with expertise in Data Analysis, Front-end, and Back-end web development, and mobile app development. Seeking an internship to apply these skills and contribute to a company's success. Experienced in IT support, system administration, software development, and digitization projects. Proficient in a variety of programming languages, web development technologies, and design tools. Active in university clubs and fluent in French, English, and Arabic. Hobbies include gaming, Taekwondo coaching, ethical pen testing, and design arts.
+            I'm Nabegh Anane, a passionate Business Intelligence professional with a strong focus on data analysis, Full Stack development, and creating user-friendly interfaces. My academic journey and hands-on experience have equipped me with the skills to turn complex data into actionable insights. I'm dedicated to leveraging cloud computing, automation, and web development to deliver impactful, data-driven solutions. Let's connect and explore how I can bring my expertise to your next project, driving innovation and success.
             </p>
           </div>
           <div className="col-xs-6 col-md-3">
