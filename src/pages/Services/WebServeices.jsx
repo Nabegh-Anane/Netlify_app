@@ -22,25 +22,25 @@ const WebServeices = () => {
           <div className={styles.freelanceGrid}>
             <div className={styles.gridItemo}><i class='bx bxs-wrench' ></i>
               <div className={styles.itemOcontent}>
-                <h3>Manage your Site</h3>
+                <h3>Service 1</h3>
                 <p>Built on a easy to use content management system, making managing your content a synch!</p>
               </div>
             </div>
             <div className={styles.gridItemo}><i class='bx bx-devices' ></i>
               <div className={styles.itemOcontent}>
-                <h3>Responsive Design</h3>
+                <h3>Service 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sapiente cupiditate necessitatibu.</p>
               </div>
             </div>
             <div className={styles.gridItemo}><i class='bx bxs-hdd' ></i>
               <div className={styles.itemOcontent}>
-                <h3>Dedicated Self-Hosting</h3>
+                <h3>Service 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sapiente cupiditate necessitatibu.</p>
               </div>
             </div>
             <div className={styles.gridItemo}><i class='bx bxs-analyse' ></i>
               <div className={styles.itemOcontent}>
-                <h3>Strikingly Performant</h3>
+                <h3>Service 4</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sapiente cupiditate necessitatibu.</p>
               </div>
             </div>
