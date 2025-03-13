@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nabeghanane.com/sitemap.xml
